@@ -1,5 +1,7 @@
 # Turn rewrite engine on
 Options +FollowSymlinks
+
+# OJO set configuration apache AllowOverride All in <Directory /var/www/>
 RewriteEngine on
 
 # map neat URL to internal URL
